@@ -19,3 +19,13 @@
     text-decoration: line-through;
     color: red;
 }
+
+.addTodo{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    
+}
+.addTodo input{
+    margin-right: 8px;  
+}
