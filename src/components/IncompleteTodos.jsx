@@ -49,7 +49,7 @@ function InCompleteTodos(props) {
             ))}
         </ul>
       ) : (
-        "You have no in complete todos"
+        <p className="text-center">You have no in complete todos</p>
       )}
     </div>
   );
