@@ -54,6 +54,7 @@ export function TodoProvider({ children }) {
       todo.id === editId ? { ...todo, title: newValue } : todo
     );
     setTodos(newTodos);
+    
   };
   const handleAdd = (newValue) => {
     const newTodo = {

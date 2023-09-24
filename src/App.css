@@ -1,6 +1,7 @@
 * {
     background-color: #999;
 }
+
 .todo-wrapper {
     width: 50rem;
     margin: 4rem auto;
@@ -20,12 +21,43 @@
     color: red;
 }
 
-.addTodo{
+.addTodo {
     display: flex;
     justify-content: center;
     margin-top: 32px;
-    
+
 }
-.addTodo input{
-    margin-right: 8px;  
+
+.addTodo input {
+    margin-right: 8px;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab-container span {
+    /* flex: 10%; */
+    background: white;
+    text-align: center;
+    padding: 10px 20px ;
+    font-size: 20px;
+    border-left: 1px solid #999;
+    cursor: pointer;
+    /* margin-right: 4px; */
+}
+.tab-container span:hover{
+    background: lightblue;
+}
+.active-tab{
+    background-color: lightblue !important;
+}
+.text-center{
+    text-align: center;
+    font-size: 1.5rem;
 }
